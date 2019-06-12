@@ -1,0 +1,260 @@
+{ "docs": [
+{ "a": "e10827idm140592096336080", "t": "Oracle\u00AE SQL*Module for Ada Programmer's Guide", "h": "toc.htm", 
+ "c": [{ "a": "e10827idm140592100534368", "t": "Preface", "h": "preface.htm", 
+ "c": [ { "t": "Intended Audience", "h": "preface.htm#CIADDCEJ" },
+ { "t": "Documentation Accessibility", "h": "preface.htm#CHDFGHAE" },
+ { "t": "Standards Conformance", "h": "preface.htm#CHDBIABE" },
+ { "t": "Conventions", "h": "preface.htm#CHDIEAGC" },
+ { }
+ ]
+ },
+{ "a": "e10827idm140592086205184", "t": "Introduction to SQL*Module", "h": "ch_one.htm#g1007096", 
+ "c": [{ "a": "e10827idm140592039502160", "t": "What Is SQL*Module?", "h": "ch_one.htm#i1006190", 
+ "c": [ { "t": "Background", "h": "ch_one.htm" },
+ { "t": "Precompilers", "h": "ch_one.htm#i1006204" },
+ { "t": "The Module Language Concept", "h": "ch_one.htm" },
+ { }
+ ]
+ },
+ { "t": "SQL*Module as an Interface Builder", "h": "ch_one.htm#i1006264" },
+ { "t": "What Is Supported by SQL*Module?", "h": "ch_one.htm#i1006290" },
+ { "t": "What SQL Statements are Not Supported by SQL*Module?", "h": "ch_one.htm#i1006300" },
+ { }
+ ]
+ },
+{ "a": "e10827idm140592085085984", "t": "Module Language", "h": "ch_two.htm#g1019029", 
+ "c": [{ "a": "e10827idm140592099876192", "t": "The Module", "h": "ch_two.htm#i1006435", 
+ "c": [ { "t": "An Example Module", "h": "ch_two.htm#i1006450" },
+ { "t": "A Short Example Program in Ada", "h": "ch_two.htm" },
+ { }
+ ]
+ },
+{ "a": "e10827idm140592100593504", "t": "Structure of a Module", "h": "ch_two.htm#i1006686", 
+ "c": [ { "t": "Preamble", "h": "ch_two.htm" },
+ { "t": "Cursor Declarations", "h": "ch_two.htm" },
+ { "t": "Procedure Definitions", "h": "ch_two.htm" },
+ { }
+ ]
+ },
+ { "t": "SQL Datatypes", "h": "ch_two.htm#i1006810" },
+ { "t": "SQL Commands", "h": "ch_two.htm#i1006889" },
+{ "a": "e10827idm140592086682512", "t": "Text in a Module", "h": "ch_two.htm#i1006913", 
+ "c": [ { "t": "Comments", "h": "ch_two.htm" },
+ { }
+ ]
+ },
+ { "t": "Indicator Parameters", "h": "ch_two.htm#i1006938" },
+{ "a": "e10827idm140592080500000", "t": "Status Parameters", "h": "ch_two.htm#i1007001", 
+ "c": [ { "t": "Error Messages", "h": "ch_two.htm" },
+ { }
+ ]
+ },
+{ "a": "e10827idm140592097135520", "t": "CONNECT Statement", "h": "ch_two.htm#i1007024", 
+ "c": [ { "t": "SET CONNECTION Statement", "h": "ch_two.htm#i1007069" },
+ { }
+ ]
+ },
+ { "t": "DISCONNECT Statement", "h": "ch_two.htm#i1007074" },
+{ "a": "e10827idm140592095983008", "t": "Multi-tasking", "h": "ch_two.htm#i1007102", 
+ "c": [ { "t": "ENABLE THREADS", "h": "ch_two.htm#i1007107" },
+ { "t": "SQL_CONTEXT Datatype", "h": "ch_two.htm#i1007112" },
+ { "t": "CONTEXT ALLOCATE", "h": "ch_two.htm#i1007123" },
+ { "t": "CONTEXT FREE", "h": "ch_two.htm#i1007130" },
+ { "t": "Multi-tasking Restrictions", "h": "ch_two.htm" },
+ { }
+ ]
+ },
+ { "t": "Multi-tasking Example", "h": "ch_two.htm#i1007139" },
+ { }
+ ]
+ },
+{ "a": "e10827idm140592080531552", "t": "Accessing Stored Procedures", "h": "ch_three.htm#g1011747", 
+ "c": [{ "a": "e10827idm140592089327072", "t": "PL/SQL", "h": "ch_three.htm#i1007305", 
+ "c": [ { "t": "Procedures", "h": "ch_three.htm#i1007323" },
+ { }
+ ]
+ },
+ { "t": "Stored Procedures", "h": "ch_three.htm#i1007364" },
+ { "t": "Stored Packages", "h": "ch_three.htm#i1007379" },
+ { "t": "Accessing Stored Procedures", "h": "ch_three.htm#i1007396" },
+ { "t": "Case of Package and Procedure Names", "h": "ch_three.htm#i1007412" },
+ { "t": "Early and Late Binding", "h": "ch_three.htm#i1007434" },
+{ "a": "e10827idm140592088074832", "t": "Cursor Variables", "h": "ch_three.htm#i1007497", 
+ "c": [ { "t": "Cursor Variable Parameters", "h": "ch_three.htm" },
+ { "t": "Allocating a Cursor Variable", "h": "ch_three.htm" },
+ { "t": "Opening a Cursor Variable", "h": "ch_three.htm" },
+ { "t": "Closing a Cursor Variable", "h": "ch_three.htm" },
+ { "t": "Restrictions on Cursor Variables", "h": "ch_three.htm" },
+ { }
+ ]
+ },
+ { "t": "Dynamic SQL", "h": "ch_three.htm#i1007611" },
+{ "a": "e10827idm140591944177824", "t": "The WITH INTERFACE Clause", "h": "ch_three.htm#i1007621", 
+ "c": [ { "t": "Examples", "h": "ch_three.htm#i1007647" },
+ { "t": "SQL Datatypes", "h": "ch_three.htm#i1007684" },
+ { "t": "The Default WITH INTERFACE Clause", "h": "ch_three.htm#i1007787" },
+ { }
+ ]
+ },
+ { "t": "Storing Module Language Procedures", "h": "ch_three.htm#i1007932" },
+ { "t": "Connecting to a Database", "h": "ch_three.htm#i1007983" },
+ { }
+ ]
+ },
+{ "a": "e10827idm140592086797264", "t": "Developing the Ada Application", "h": "ch_four.htm#g1011716", 
+ "c": [ { "t": "Program Structure", "h": "ch_four.htm#i1008051" },
+{ "a": "e10827idm140591949821984", "t": "Error Handling", "h": "ch_four.htm#i1008067", 
+ "c": [ { "t": "SQLCODE", "h": "ch_four.htm" },
+ { "t": "Obtaining Error Message Text", "h": "ch_four.htm#i1008093" },
+ { "t": "SQLSTATE", "h": "ch_four.htm" },
+ { }
+ ]
+ },
+ { "t": "Obtaining the Number of Rows Processed", "h": "ch_four.htm#i1008293" },
+{ "a": "e10827idm140592100480256", "t": "Handling Nulls", "h": "ch_four.htm#i1008305", 
+ "c": [ { "t": "Indicator Variables", "h": "ch_four.htm" },
+ { }
+ ]
+ },
+ { "t": "Cursors", "h": "ch_four.htm#i1008351" },
+ { "t": "Specification Files", "h": "ch_four.htm#i1008366" },
+ { "t": "Calling a Procedure", "h": "ch_four.htm#i1008379" },
+ { "t": "Arrays as Procedure Arguments", "h": "ch_four.htm#i1008382" },
+ { "t": "Globalization Support", "h": "ch_four.htm#i1008407" },
+ { }
+ ]
+ },
+{ "a": "e10827idm140592048357888", "t": "Running SQL*Module", "h": "ch_five.htm#g1018019", 
+ "c": [{ "a": "e10827idm140592099259600", "t": "SQL*Module Input and Output", "h": "ch_five.htm#i1012200", 
+ "c": [ { "t": "Input sources", "h": "ch_five.htm" },
+ { "t": "Output Files", "h": "ch_five.htm#i1012222" },
+ { "t": "Determining the Input Source", "h": "ch_five.htm" },
+ { }
+ ]
+ },
+{ "a": "e10827idm140591944260976", "t": "Invoking SQL*Module", "h": "ch_five.htm#i1012332", 
+ "c": [ { "t": "Running the Compiler", "h": "ch_five.htm" },
+ { }
+ ]
+ },
+{ "a": "e10827idm140592088376976", "t": "Case Sensitivity in Program Names, Option Names, and Values", "h": "ch_five.htm#i1012354", 
+ "c": [ { "t": "Listing Options and Default Values", "h": "ch_five.htm" },
+ { }
+ ]
+ },
+{ "a": "e10827idm140591946064208", "t": "How to Specify Command-Line Options", "h": "ch_five.htm#i1012380", 
+ "c": [ { "t": "Value Lists", "h": "ch_five.htm" },
+ { "t": "Default Values", "h": "ch_five.htm#i1012422" },
+ { }
+ ]
+ },
+ { "t": "Configuration Files", "h": "ch_five.htm#i1012438" },
+ { "t": "Input Files", "h": "ch_five.htm#i1012460" },
+{ "a": "e10827idm140592087209968", "t": "Output Files", "h": "ch_five.htm#i1012471", 
+ "c": [ { "t": "Source Code Output File", "h": "ch_five.htm#i1012481" },
+ { "t": "Specification File", "h": "ch_five.htm#i1012494" },
+ { "t": "Listing File", "h": "ch_five.htm#i1012509" },
+ { "t": "PL/SQL Source Files", "h": "ch_five.htm" },
+ { "t": "Avoid Default Output Filenames", "h": "ch_five.htm" },
+ { }
+ ]
+ },
+{ "a": "e10827idm140592083717760", "t": "Command-Line Options", "h": "ch_five.htm#i1012524", 
+ "c": [ { "t": "AUTO_CONNECT", "h": "ch_five.htm" },
+ { "t": "BINDING", "h": "ch_five.htm" },
+ { "t": "CONFIG", "h": "ch_five.htm" },
+ { "t": "ERRORS", "h": "ch_five.htm" },
+ { "t": "FIPS", "h": "ch_five.htm" },
+ { "t": "INAME", "h": "ch_five.htm" },
+ { "t": "LNAME", "h": "ch_five.htm" },
+ { "t": "LTYPE", "h": "ch_five.htm" },
+ { "t": "MAPPING", "h": "ch_five.htm#i1012769" },
+ { "t": "MAXLITERAL", "h": "ch_five.htm" },
+ { "t": "ONAME", "h": "ch_five.htm" },
+ { "t": "OUTPUT", "h": "ch_five.htm" },
+ { "t": "PNAME", "h": "ch_five.htm" },
+ { "t": "RPC_GENERATE", "h": "ch_five.htm" },
+ { "t": "SELECT_ERROR", "h": "ch_five.htm" },
+ { "t": "SNAME", "h": "ch_five.htm" },
+ { "t": "STORE_PACKAGE", "h": "ch_five.htm" },
+ { "t": "SQLCHECK", "h": "ch_five.htm" },
+ { "t": "USERID", "h": "ch_five.htm" },
+ { }
+ ]
+ },
+{ "a": "e10827idm140592080265280", "t": "Compiling and Linking", "h": "ch_five.htm#i1012894", 
+ "c": [ { "t": "An Example (Module Language)", "h": "ch_five.htm" },
+ { }
+ ]
+ },
+ { }
+ ]
+ },
+{ "a": "e10827idm140592088545200", "t": "Demonstration Programs", "h": "ch_six.htm#i1009402", 
+ "c": [{ "a": "e10827idm140591946626704", "t": "The SQL_STANDARD Package", "h": "ch_six.htm#i1009414", 
+ "c": [ { "t": "SQLCODE", "h": "ch_six.htm" },
+ { "t": "SQLSTATE", "h": "ch_six.htm" },
+ { }
+ ]
+ },
+{ "a": "e10827idm140592085552544", "t": "Sample Programs", "h": "ch_six.htm#i1009430", 
+ "c": [ { "t": "Sample Tables", "h": "ch_six.htm" },
+ { "t": "Module Language Sample Program", "h": "ch_six.htm#i1009763" },
+ { "t": "Calling a Stored Procedure", "h": "ch_six.htm" },
+ { }
+ ]
+ },
+{ "a": "e10827idm140591943683008", "t": "Sample Applications", "h": "ch_six.htm", 
+ "c": [ { "t": "DEMOHOST.A", "h": "ch_six.htm" },
+ { "t": "DEMCALSP.A", "h": "ch_six.htm#i1011093" },
+ { }
+ ]
+ },
+ { }
+ ]
+ },
+{ "a": "e10827idm140592065481552", "t": "New Features", "h": "appa.htm#g634751", 
+ "c": [ { "t": "New Statements", "h": "appa.htm" },
+ { "t": "Other New Features", "h": "appa.htm" },
+ { }
+ ]
+ },
+{ "a": "e10827idm140592087528224", "t": "Module Language Syntax", "h": "appb.htm#g635096", 
+ "c": [{ "a": "e10827idm140592088636576", "t": "Module Language Syntax Diagrams", "h": "appb.htm", 
+ "c": [ { "t": "Preamble", "h": "appb.htm" },
+ { "t": "Cursors", "h": "appb.htm" },
+ { "t": "Procedure Definitions", "h": "appb.htm" },
+ { }
+ ]
+ },
+ { "t": "WITH INTERFACE CLAUSE", "h": "appb.htm" },
+ { }
+ ]
+ },
+{ "a": "e10827idm140592083848512", "t": "Reserved Words", "h": "appc.htm#BEJEACDH", 
+ "c": [ { "t": "Module Reserved Words", "h": "appc.htm" },
+ { }
+ ]
+ },
+{ "a": "e10827idm140591948796400", "t": "SQLSTATE Codes", "h": "appd.htm#g642406", 
+ "c": [ { "t": "SQLSTATE Codes", "h": "appd.htm" },
+ { }
+ ]
+ },
+{ "a": "e10827idm140592088889808", "t": "System-Specific References", "h": "appe.htm#CDEHIJFA", 
+ "c": [{ "a": "e10827idm140591947647744", "t": "System-Specific Aspects of SQL*Module", "h": "appe.htm", 
+ "c": [ { "t": "Supported Compilers", "h": "appe.htm" },
+ { "t": "Character Case in Command Lines", "h": "appe.htm" },
+ { "t": "Location of Files", "h": "appe.htm" },
+ { "t": "Filename Extensions", "h": "appe.htm" },
+ { "t": "Ada Output Files", "h": "appe.htm" },
+ { "t": "Command Line", "h": "appe.htm" },
+ { "t": "Ada SQL_STANDARD Package", "h": "appe.htm" },
+ { }
+ ]
+ },
+ { }
+ ]
+ },
+  { }
+ ] } ]}

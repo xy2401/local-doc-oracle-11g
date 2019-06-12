@@ -1,0 +1,383 @@
+{ "docs": [
+{ "a": "e10582idm140591975514928", "t": "Oracle\u00AE Warehouse Builder Sources and Targets Guide", "h": "toc.htm", 
+ "c": [{ "a": "e10582idm140591956909328", "t": "Preface", "h": "preface.htm#WBDOD90677", 
+ "c": [ { "t": "Audience", "h": "preface.htm#WBDOD90678" },
+ { "t": "Documentation Accessibility", "h": "preface.htm#BABFFFBA" },
+ { "t": "Conventions", "h": "preface.htm#WBDOD90683" },
+ { "t": "Getting Help", "h": "preface.htm#WBDOD90684" },
+ { "t": "Related Publications", "h": "preface.htm#WBDOD90685" },
+ { }
+ ]
+ },
+{ "a": "e10582idm140592005098112", "t": "Connecting to Sources and Targets in Oracle Warehouse Builder", "h": "intro_sources_targets.htm#WBDOD10501", 
+ "c": [ { "t": "Supported Sources and Targets", "h": "intro_sources_targets.htm#WBDOD04367" },
+ { "t": "Connecting to an Oracle Database", "h": "intro_sources_targets.htm#CIHGJIGC" },
+{ "a": "e10582idm140591986633696", "t": "Oracle Database Heterogeneous Services", "h": "intro_sources_targets.htm#WBDOD10512", 
+ "c": [ { "t": "Connecting Through Oracle Database Gateways", "h": "intro_sources_targets.htm#WBDOD10513" },
+ { "t": "Connecting Through JDBC", "h": "intro_sources_targets.htm#WBDOD90578" },
+ { "t": "Choosing JDBC or Gateways Connectivity", "h": "intro_sources_targets.htm" },
+ { "t": "Connecting Through ODBC", "h": "intro_sources_targets.htm#WBDOD10514" },
+ { }
+ ]
+ },
+ { "t": "Connecting To Enterprise Applications", "h": "intro_sources_targets.htm#WBDOD10516" },
+ { "t": "JDBC and Code Template-based Connectivity", "h": "intro_sources_targets.htm#BABJEJJF" },
+ { "t": "Choosing a Connection Technology", "h": "intro_sources_targets.htm#WBDOD10517" },
+ { }
+ ]
+ },
+{ "a": "e10582idm140591974493568", "t": "Connecting to Data Sources and Importing Metadata", "h": "importing_metadata.htm#WBDOD10502", 
+ "c": [ { "t": "About Source Data and Metadata", "h": "importing_metadata.htm#WBDOD04364" },
+{ "a": "e10582idm140592018667712", "t": "General Steps for Importing Metadata from Sources", "h": "importing_metadata.htm#WBDOD10518", 
+ "c": [ { "t": "About Locations", "h": "importing_metadata.htm#WBDOD04362" },
+ { "t": "About DB Connectors and Directories", "h": "importing_metadata.htm#WBDOD10524" },
+ { "t": "About Modules", "h": "importing_metadata.htm#WBDOD04363" },
+ { }
+ ]
+ },
+ { "t": "Using the Import Metadata Wizard", "h": "importing_metadata.htm#WBDOD04370" },
+{ "a": "e10582idm140591960370752", "t": "Importing Metadata Definitions from Oracle Database", "h": "importing_metadata.htm#WBDOD10527", 
+ "c": [ { "t": "Edit Oracle Database Location Dialog Box", "h": "importing_metadata.htm#BABFJEAI" },
+ { "t": "Importing Metadata Definitions", "h": "importing_metadata.htm" },
+ { "t": "Filter Information Page", "h": "importing_metadata.htm#WBDOD10528" },
+ { "t": "Object Selection Page", "h": "importing_metadata.htm#WBDOD10529" },
+ { "t": "Summary and Import Page", "h": "importing_metadata.htm#WBDOD10530" },
+ { "t": "Import Results Page", "h": "importing_metadata.htm#WBDOD10531" },
+ { }
+ ]
+ },
+{ "a": "e10582idm140592008934112", "t": "Reimporting Definitions", "h": "importing_metadata.htm#WBDOD10532", 
+ "c": [ { "t": "Advanced Import Options", "h": "importing_metadata.htm#WBDOD10533" },
+ { "t": "Updating Source Module Definitions", "h": "importing_metadata.htm#WBDOD10538" },
+ { }
+ ]
+ },
+ { }
+ ]
+ },
+{ "a": "e10582idm140591961107168", "t": "Using Flat Files as Sources or Targets", "h": "defining_flatfiles.htm#WBDOD10503", 
+ "c": [{ "a": "e10582idm140591993930192", "t": "About Flat Files", "h": "defining_flatfiles.htm#WBDOD10539", 
+ "c": [ { "t": "About Metadata for Flat Files", "h": "defining_flatfiles.htm" },
+ { "t": "About Flat File Modules and Locations", "h": "defining_flatfiles.htm" },
+ { "t": "Working with Flat Files as Sources or Targets", "h": "defining_flatfiles.htm" },
+ { "t": "Flat Files as Sources", "h": "defining_flatfiles.htm" },
+ { "t": "Flat Files as Targets", "h": "defining_flatfiles.htm#WBDOD10545" },
+ { "t": "Creating Flat File Modules", "h": "defining_flatfiles.htm#WBDOD10546" },
+ { }
+ ]
+ },
+{ "a": "e10582idm140591987927696", "t": "Using the Create Flat File Wizard", "h": "defining_flatfiles.htm#WBDOD10551", 
+ "c": [ { "t": "Describing a Flat File", "h": "defining_flatfiles.htm#WBDOD10552" },
+ { "t": "Defining File Properties for a Flat File", "h": "defining_flatfiles.htm#WBDOD10553" },
+ { "t": "Defining the Record Type for a Flat File", "h": "defining_flatfiles.htm#WBDOD10558" },
+ { "t": "Defining Field Properties for a Flat File", "h": "defining_flatfiles.htm#WBDOD10559" },
+ { }
+ ]
+ },
+{ "a": "e10582idm140591999371648", "t": "Importing Definitions from Flat Files Using Sampling", "h": "defining_flatfiles.htm#WBDOD10562", 
+ "c": [ { "t": "Using the Flat File Sample Wizard", "h": "defining_flatfiles.htm#WBDOD10563" },
+ { }
+ ]
+ },
+{ "a": "e10582idm140592020375792", "t": "Importing Metadata Definitions from COBOL Copybooks", "h": "defining_flatfiles.htm#BABGGBJG", 
+ "c": [ { "t": "Understanding Data Hierarchy in COBOL Applications", "h": "defining_flatfiles.htm" },
+ { "t": "Multiple Definitions", "h": "defining_flatfiles.htm" },
+ { "t": "Reinterpreting COBOL Data Structures Into Relational Data Structures", "h": "defining_flatfiles.htm" },
+ { "t": "Importing Metadata", "h": "defining_flatfiles.htm" },
+ { "t": "Example: Extracting Data from a Single Record Type Varying Array COBOL File", "h": "defining_flatfiles.htm#BABDAAHF" },
+ { }
+ ]
+ },
+{ "a": "e10582idm140592090507280", "t": "Viewing and Editing a File Definition", "h": "defining_flatfiles.htm#WBDOD10578", 
+ "c": [ { "t": "Name Tab", "h": "defining_flatfiles.htm#WBDOD10579" },
+ { "t": "General Tab", "h": "defining_flatfiles.htm#WBDOD10580" },
+ { "t": "Record Tab", "h": "defining_flatfiles.htm#WBDOD10581" },
+ { "t": "Structure Tab", "h": "defining_flatfiles.htm#WBDOD10582" },
+ { }
+ ]
+ },
+{ "a": "e10582idm140592093065376", "t": "Using External Tables", "h": "defining_flatfiles.htm#WBDOD10583", 
+ "c": [ { "t": "Creating a New External Table Definition", "h": "defining_flatfiles.htm#WBDOD10584" },
+ { "t": "Importing an External Table", "h": "defining_flatfiles.htm#WBDOD90723" },
+ { "t": "Editing External Table Definitions", "h": "defining_flatfiles.htm#WBDOD10589" },
+ { "t": "Synchronizing an External Table Definition with a Record in a File", "h": "defining_flatfiles.htm#WBDOD10588" },
+ { "t": "Configuring External Tables", "h": "defining_flatfiles.htm#WBDOD10596" },
+ { }
+ ]
+ },
+ { }
+ ]
+ },
+{ "a": "e10582idm140592018689696", "t": "Connecting to Non-Oracle Data Sources Through Gateways", "h": "gateways_connection.htm#WBDOD90597", 
+ "c": [{ "a": "e10582idm140591956697680", "t": "Connecting to a DB2 Database", "h": "gateways_connection.htm#WBDOD90598", 
+ "c": [ { "t": "Creating a DB2 Module", "h": "gateways_connection.htm#WBDOD90599" },
+ { }
+ ]
+ },
+{ "a": "e10582idm140592012090880", "t": "Connecting to a SQL Server Database", "h": "gateways_connection.htm#WBDOD90601", 
+ "c": [ { "t": "Creating a SQL Server Module", "h": "gateways_connection.htm#WBDOD90602" },
+ { }
+ ]
+ },
+{ "a": "e10582idm140592018678464", "t": "Connecting to an ODBC Data Source", "h": "gateways_connection.htm#WBDOD90604", 
+ "c": [ { "t": "Setting up ODBC Connectivity", "h": "gateways_connection.htm#WBDOD90605" },
+ { "t": "Creating an ODBC Module", "h": "gateways_connection.htm#WBDOD90609" },
+ { }
+ ]
+ },
+ { "t": "Importing Database Objects", "h": "gateways_connection.htm#WBDOD90610" },
+ { }
+ ]
+ },
+{ "a": "e10582idm140592000022704", "t": "Connecting to Microsoft Data Sources Through ODBC Connection", "h": "loading_ms_data.htm#WBDOD10508", 
+ "c": [{ "a": "e10582idm140592084864704", "t": "Connecting to Excel Spreadsheets Through ODBC", "h": "loading_ms_data.htm#WBDOD10658", 
+ "c": [ { "t": "Case Study", "h": "loading_ms_data.htm#WBDOD10659" },
+ { "t": "Troubleshooting", "h": "loading_ms_data.htm#WBDOD10660" },
+ { }
+ ]
+ },
+{ "a": "e10582idm140591961598112", "t": "Connecting to SQL Server Database Through ODBC", "h": "loading_ms_data.htm#WBDOD10661", 
+ "c": [ { "t": "Creating an ODBC Data Source", "h": "loading_ms_data.htm#WBDOD10662" },
+ { "t": "Configuring the Oracle Database Server", "h": "loading_ms_data.htm#WBDOD10663" },
+ { "t": "Adding the SQL Server as a Source in Oracle Warehouse Builder", "h": "loading_ms_data.htm#WBDOD10666" },
+ { "t": "Troubleshooting", "h": "loading_ms_data.htm#WBDOD10668" },
+ { }
+ ]
+ },
+ { }
+ ]
+ },
+{ "a": "e10582idm140592001924448", "t": "Connecting to Data Sources Through JDBC", "h": "jdbc_connection.htm#WBDOD10505", 
+ "c": [ { "t": "Generic Connection Using JDBC", "h": "jdbc_connection.htm" },
+{ "a": "e10582idm140591982618864", "t": "Connecting to DB2 Database", "h": "jdbc_connection.htm#WBDOD90612", 
+ "c": [ { "t": "Creating a DB2 Module", "h": "jdbc_connection.htm#WBDOD90613" },
+ { "t": "Importing Metadata into a DB2 Module", "h": "jdbc_connection.htm#WBDOD90614" },
+ { }
+ ]
+ },
+{ "a": "e10582idm140592090937616", "t": "Connecting to SQL Server Database", "h": "jdbc_connection.htm#WBDOD90615", 
+ "c": [ { "t": "Creating a SQL Server Module", "h": "jdbc_connection.htm#WBDOD90616" },
+ { "t": "Importing Metadata into a SQL Server Module", "h": "jdbc_connection.htm#WBDOD90617" },
+ { }
+ ]
+ },
+ { "t": "Importing Metadata from Other Databases Using JDBC", "h": "jdbc_connection.htm" },
+ { }
+ ]
+ },
+{ "a": "e10582idm140591993049984", "t": "Extracting Data from SAP Applications", "h": "sap_integrate.htm#WBDOD30500", 
+ "c": [ { "t": "Why SAP Connector", "h": "sap_integrate.htm#WBDOD90777" },
+ { "t": "Supported SAP Versions", "h": "sap_integrate.htm#WBDOD90778" },
+{ "a": "e10582idm140591973922944", "t": "Overview of SAP Objects", "h": "sap_integrate.htm#WBDOD90779", 
+ "c": [ { "t": "SAP Object Types", "h": "sap_integrate.htm#WBDOD90780" },
+ { "t": "SAP Business Domains", "h": "sap_integrate.htm#WBDOD90781" },
+ { }
+ ]
+ },
+{ "a": "e10582idm140592093104896", "t": "Overview of the Interaction Between Oracle Warehouse Builder and SAP", "h": "sap_integrate.htm#WBDOD90782", 
+ "c": [ { "t": "SAP Function Modules", "h": "sap_integrate.htm#WBDOD90783" },
+ { "t": "Data Retrieval Mechanisms", "h": "sap_integrate.htm#WBDOD90784" },
+ { }
+ ]
+ },
+ { "t": "Implementing the SAP Data Retrieval Mechanism", "h": "sap_integrate.htm#WBDOD90788" },
+{ "a": "e10582idm140591958426784", "t": "Connecting to the SAP System", "h": "sap_integrate.htm#WBDOD90793", 
+ "c": [ { "t": "Required Files for SAP Connector", "h": "sap_integrate.htm#WBDOD90794" },
+ { "t": "Troubleshooting Connection Errors", "h": "sap_integrate.htm#WBDOD90799" },
+ { "t": "Creating SAP Module Definitions", "h": "sap_integrate.htm#WBDOD90801" },
+ { }
+ ]
+ },
+{ "a": "e10582idm140591947582384", "t": "Importing Metadata from SAP Tables", "h": "sap_integrate.htm#WBDOD90805", 
+ "c": [ { "t": "Importing SAP Metadata Definitions", "h": "sap_integrate.htm#WBDOD90806" },
+ { "t": "Analyzing Metadata Details", "h": "sap_integrate.htm#WBDOD90813" },
+ { }
+ ]
+ },
+{ "a": "e10582idm140592092780256", "t": "Creating SAP Extraction Mappings", "h": "sap_integrate.htm#WBDOD90817", 
+ "c": [ { "t": "Defining the SAP Extraction Mapping", "h": "sap_integrate.htm#WBDOD90818" },
+ { }
+ ]
+ },
+{ "a": "e10582idm140591960198608", "t": "Deploying and Executing SAP ABAP Mappings", "h": "sap_integrate.htm#WBDOD90827", 
+ "c": [ { "t": "Automated System", "h": "sap_integrate.htm#WBDOD90828" },
+ { "t": "Semi-Automated System", "h": "sap_integrate.htm#WBDOD90830" },
+ { "t": "Manual System", "h": "sap_integrate.htm#WBDOD90832" },
+ { }
+ ]
+ },
+ { }
+ ]
+ },
+{ "a": "e10582idm140591993534016", "t": "Integrating with Oracle ERP Applications", "h": "integrating_apps.htm#WBDOD10506", 
+ "c": [{ "a": "e10582idm140591989957760", "t": "Importing Metadata from Oracle E-Business Suite Applications", "h": "integrating_apps.htm#WBDOD10617", 
+ "c": [ { "t": "Importing E-Business Suite Metadata Definitions", "h": "integrating_apps.htm#WBDOD10618" },
+ { }
+ ]
+ },
+{ "a": "e10582idm140591978984160", "t": "Importing Metadata from PeopleSoft Applications", "h": "integrating_apps.htm#WBDOD10624", 
+ "c": [ { "t": "Importing PeopleSoft Metadata Definitions", "h": "integrating_apps.htm#WBDOD10625" },
+ { }
+ ]
+ },
+{ "a": "e10582idm140592022502528", "t": "Importing Metadata from Siebel Applications", "h": "integrating_apps.htm#WBDOD10631", 
+ "c": [ { "t": "Importing Siebel Metadata Definitions", "h": "integrating_apps.htm#WBDOD10632" },
+ { }
+ ]
+ },
+{ "a": "e10582idm140592072164496", "t": "Importing Metadata from Applications Implemented on non-Oracle Databases", "h": "integrating_apps.htm#CHDJDBIH", 
+ "c": [ { "t": "Connecting to a PeopleSoft Application Implemented on SQL Server", "h": "integrating_apps.htm#CHDEBDGF" },
+ { }
+ ]
+ },
+ { }
+ ]
+ },
+{ "a": "e10582idm140592004760896", "t": "Importing Oracle Warehouse Builder Data into Business Intelligence Applications", "h": "business_intelligence.htm#WBDOD10510", 
+ "c": [{ "a": "e10582idm140592023024416", "t": "Creating Business Definitions for Oracle BI Discoverer", "h": "business_intelligence.htm#WBDOD10003", 
+ "c": [ { "t": "Creating Oracle Discoverer Module", "h": "business_intelligence.htm#WBDOD10677" },
+ { "t": "About Item Folders", "h": "business_intelligence.htm#WBDOD10682" },
+ { "t": "Editing an Item Folder", "h": "business_intelligence.htm#WBDOD10683" },
+ { "t": "Creating an Item Folder", "h": "business_intelligence.htm#WBDOD10689" },
+ { "t": "Creating a Business Area", "h": "business_intelligence.htm#WBDOD10694" },
+ { "t": "Editing a Business Area", "h": "business_intelligence.htm#WBDOD10698" },
+ { "t": "Creating a Drill Path", "h": "business_intelligence.htm#WBDOD10701" },
+ { "t": "Editing a Drill Path", "h": "business_intelligence.htm#WBDOD10706" },
+ { "t": "Creating Lists of Values", "h": "business_intelligence.htm#WBDOD10709" },
+ { "t": "Editing Lists of Values", "h": "business_intelligence.htm#WBDOD10714" },
+ { "t": "Creating Alternative Sort Orders", "h": "business_intelligence.htm#WBDOD10719" },
+ { "t": "Editing Alternative Sort Orders", "h": "business_intelligence.htm#WBDOD10726" },
+ { "t": "Creating Drills to Detail", "h": "business_intelligence.htm#WBDOD10732" },
+ { "t": "Editing Drills to Detail", "h": "business_intelligence.htm#WBDOD10734" },
+ { "t": "Creating Registered Functions", "h": "business_intelligence.htm#WBDOD10735" },
+ { "t": "Editing Registered Functions", "h": "business_intelligence.htm#WBDOD10739" },
+ { }
+ ]
+ },
+{ "a": "e10582idm140592004439808", "t": "Configuring Discoverer Objects", "h": "business_intelligence.htm#WBDOD10001", 
+ "c": [ { "t": "Configuration Parameters for Oracle Discoverer modules", "h": "business_intelligence.htm#WBDOD10758" },
+ { "t": "Configuration Parameters for Item Folders", "h": "business_intelligence.htm#WBDOD10759" },
+ { "t": "Configuration Parameters for Registered Functions", "h": "business_intelligence.htm#WBDOD10760" },
+ { }
+ ]
+ },
+{ "a": "e10582idm140591981201040", "t": "Deploying Business Definitions to Oracle BI Discoverer", "h": "business_intelligence.htm#WBDOD90633", 
+ "c": [ { "t": "Directly Deploying Business Definitions to Oracle BI Discoverer", "h": "business_intelligence.htm#WBDOD90634" },
+ { "t": "Deploying Business Definitions to Earlier Versions of Oracle BI Discoverer", "h": "business_intelligence.htm#WBDOD90635" },
+ { "t": "Indirectly Deploying Business Definitions to Oracle BI Discoverer", "h": "business_intelligence.htm#WBDOD90636" },
+ { }
+ ]
+ },
+{ "a": "e10582idm140591992001584", "t": "Accessing BI Objects Using Oracle BI Discoverer", "h": "business_intelligence.htm#WBDOD10761", 
+ "c": [ { "t": "Using Business Definitions in Oracle BI Discoverer", "h": "business_intelligence.htm#WBDOD10762" },
+ { }
+ ]
+ },
+{ "a": "e10582idm140591942859520", "t": "Creating Business Definitions for OBIEE", "h": "business_intelligence.htm#WBDOD10004", 
+ "c": [ { "t": "Creating an Oracle Business Intelligence Module", "h": "business_intelligence.htm#WBDOD90637" },
+ { "t": "About Logical Tables", "h": "business_intelligence.htm#WBDOD90638" },
+ { "t": "Editing a Logical Table", "h": "business_intelligence.htm#WBDOD90639" },
+ { "t": "Creating a Logical Table", "h": "business_intelligence.htm#WBDOD90646" },
+ { "t": "Creating a Dimension Drill Path", "h": "business_intelligence.htm#WBDOD90669" },
+ { "t": "Editing a Dimension Drill Path", "h": "business_intelligence.htm#WBDOD90674" },
+ { "t": "Creating a Catalog Folder", "h": "business_intelligence.htm#WBDOD90658" },
+ { "t": "Editing a Catalog Folder", "h": "business_intelligence.htm#WBDOD90664" },
+ { }
+ ]
+ },
+{ "a": "e10582idm140592021675888", "t": "Configuring Oracle Business Intelligence Objects", "h": "business_intelligence.htm#WBDOD90869", 
+ "c": [ { "t": "Configuration Parameters for Oracle Business Intelligence Modules", "h": "business_intelligence.htm#WBDOD90870" },
+ { }
+ ]
+ },
+{ "a": "e10582idm140591984515648", "t": "Accessing BI Objects Using OBIEE", "h": "business_intelligence.htm#WBDOD10675", 
+ "c": [ { "t": "Merging Updated RPD Files", "h": "business_intelligence.htm#WBDOD90871" },
+ { }
+ ]
+ },
+{ "a": "e10582idm140592005582752", "t": "Deriving BI Objects", "h": "business_intelligence.htm#WBDOD10002", 
+ "c": [ { "t": "Selecting Source Objects", "h": "business_intelligence.htm#WBDOD10743" },
+ { "t": "Selecting a Target for the Derived Objects", "h": "business_intelligence.htm#WBDOD10744" },
+ { "t": "Specifying Derivation Rules", "h": "business_intelligence.htm#WBDOD10745" },
+ { "t": "Reviewing the Pre Derivation Rules", "h": "business_intelligence.htm#WBDOD10746" },
+ { "t": "Reviewing Derivation Progress", "h": "business_intelligence.htm#WBDOD10747" },
+ { "t": "Finishing the Derivation", "h": "business_intelligence.htm#WBDOD10748" },
+ { }
+ ]
+ },
+ { }
+ ]
+ },
+{ "a": "e10582idm140592011402560", "t": "Importing Design Definitions from Oracle Designer", "h": "imp_thirdparty_design.htm#WBDOD10504", 
+ "c": [{ "a": "e10582idm140592022090416", "t": "Using Oracle Designer Sources", "h": "imp_thirdparty_design.htm#WBDOD10604", 
+ "c": [ { "t": "Using Oracle Designer as a Metadata Source", "h": "imp_thirdparty_design.htm#WBDOD10605" },
+ { }
+ ]
+ },
+ { }
+ ]
+ },
+{ "a": "e10582idm140592092908288", "t": "Creating New Platforms", "h": "platform_extensions.htm#CHDHEGEX", 
+ "c": [ { "t": "Creating a New Platform", "h": "platform_extensions.htm#CIHBIHCD" },
+{ "a": "e10582idm140591980673424", "t": "Defining the Properties of a New Platform", "h": "platform_extensions.htm#CIHEBDGB", 
+ "c": [ { "t": "Defining the Platform Type", "h": "platform_extensions.htm" },
+ { "t": "Defining the Data Type Map", "h": "platform_extensions.htm" },
+ { "t": "Generic Data Types Supported in Oracle Warehouse Builder", "h": "platform_extensions.htm" },
+ { "t": "DB2 Data Types Mapping", "h": "platform_extensions.htm" },
+ { "t": "MS SQL Server Data Types Mapping", "h": "platform_extensions.htm" },
+ { "t": "Creating Modules Based on a Platform", "h": "platform_extensions.htm" },
+ { }
+ ]
+ },
+{ "a": "e10582idm140592048807920", "t": "Creating a Microsoft Excel Platform", "h": "platform_extensions.htm#CIHGHHAB", 
+ "c": [ { "t": "Importing an Excel Worksheet", "h": "platform_extensions.htm" },
+ { }
+ ]
+ },
+{ "a": "e10582idm140591943825744", "t": "Using Custom Metadata Import in Platforms", "h": "platform_extensions.htm#CIHFBBFG", 
+ "c": [ { "t": "Example: Implementing SQL-Based CMI Import for DB2 UDB", "h": "platform_extensions.htm#CHDFIDDA" },
+ { }
+ ]
+ },
+ { "t": "Defining Other Platforms", "h": "platform_extensions.htm" },
+ { }
+ ]
+ },
+{ "a": "e10582idm140592089239776", "t": "Using Code Templates to Load and Transfer Data", "h": "code_templates.htm#WBDOD90618", 
+ "c": [{ "a": "e10582idm140592099609584", "t": "About Code Templates", "h": "code_templates.htm#WBDOD07001", 
+ "c": [ { "t": "Load Code Template", "h": "code_templates.htm#WBDOD10607" },
+ { "t": "Integration Code Template", "h": "code_templates.htm#WBDOD10608" },
+ { "t": "Control Code Template", "h": "code_templates.htm#WBDOD10609" },
+ { "t": "Change Data Capture Code Template", "h": "code_templates.htm#WBDOD10610" },
+ { "t": "Oracle Target Code Template", "h": "code_templates.htm#WBDOD10611" },
+ { "t": "Function Code Template", "h": "code_templates.htm#WBDOD10612" },
+ { "t": "Predefined Code Templates", "h": "code_templates.htm#WBDOD90771" },
+ { }
+ ]
+ },
+{ "a": "e10582idm140592085384160", "t": "Working with Code Templates", "h": "code_templates.htm#WBDOD10613", 
+ "c": [ { "t": "Creating a Code Template Folder", "h": "code_templates.htm#WBDOD10614" },
+ { "t": "Creating a Code Template", "h": "code_templates.htm#WBDOD10615" },
+ { "t": "Importing a Code Template", "h": "code_templates.htm#WBDOD90772" },
+ { "t": "Tasks in a Code Template", "h": "code_templates.htm" },
+ { "t": "Using Code Templates", "h": "code_templates.htm#WBDOD10616" },
+ { }
+ ]
+ },
+ { }
+ ]
+ },
+{ "a": "e10582idm140591984264960", "t": "Importing and Publishing Web Services", "h": "web_services.htm#WBDOD10509", 
+ "c": [ { "t": "Defining Web Services", "h": "web_services.htm#WBDOD90874" },
+{ "a": "e10582idm140592086660240", "t": "Publishing Functions as Web Services", "h": "web_services.htm#WBDOD10669", 
+ "c": [ { "t": "Operations and Parameters Generated in a Web Service", "h": "web_services.htm" },
+ { "t": "Creating a Web Service", "h": "web_services.htm" },
+ { }
+ ]
+ },
+ { "t": "Importing External Web Services", "h": "web_services.htm#WBDOD10673" },
+ { }
+ ]
+ },
+  { }
+ ] } ]}

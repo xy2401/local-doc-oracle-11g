@@ -1,0 +1,4 @@
+<data>
+<syncserver>docs-uat1.us.oracle.com</syncserver>
+<syncpath>cd/E11882_01/</syncpath>
+</data>
